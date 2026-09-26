@@ -1,0 +1,67 @@
+═══════════════════════════════════════════
+  Cliff Empire（REMASTER 版）工作机器人 Mod
+  Worker Robot Mod v2.8
+═══════════════════════════════════════════
+
+【这是什么 / What is this】
+给游戏添加"工作机器人"系统：
+- 按 F9 制造机器人（800 钱/台；上限=工厂数×50，不超过居民数）
+- 按 F10 拆除机器人
+- 1个机器人 = 2个工人的劳动力
+- 机器人补上劳动力缺口后，全城工厂满负荷生产
+- 多场景独立计数，空间站(轨道)不支持机器人
+- 机器人数量自动随游戏存档保存/读取
+- HUD面板中英文可切换
+
+Adds a Worker Robot system to the game:
+- Press F9 to build robots (limit = factories x50, capped at population)
+- Press F10 to remove robots
+- Each robot does the work of 2 workers
+- Robots fill labor deficits -> full production
+- Per-scene tracking, orbital station excluded
+- Robot counts auto-save with your game
+- Bilingual HUD (中文/EN)
+
+【安装方法 / Installation】(只需一次 / one time)
+1. 找到游戏目录 / Find the game folder:
+   Steam库 → 右键Cliff Empire → 管理 → 浏览本地文件
+   Steam Library -> right-click Cliff Empire -> Manage -> Browse local files
+   进入其中的 REMASTER 文件夹
+   Then open the REMASTER folder
+2. 把本压缩包里的【所有文件】解压覆盖到 REMASTER 文件夹
+   Extract ALL files from this zip into the REMASTER folder (overwrite)
+3. 从Steam正常启动游戏 / Launch the game from Steam
+
+【重要 / IMPORTANT】首次启动：
+- 第一次启动时 BepInEx 会生成运行库文件(约1-3分钟)，游戏窗口可能出现较慢，属正常现象，请耐心等待
+- First launch generates runtime files (1-3 min). Slower startup is normal - please wait.
+- 之后启动就正常速度了 / Later launches are normal speed.
+
+【使用 / Usage】
+- F9 = 制造1个机器人（800 钱；需要机器人工厂，1居民限1个）
+  F9 = build 1 robot (800 credits; requires a Robot Factory; max = population)
+- F10 = 拆除1个机器人 / remove 1 robot
+- 游戏内保存/读档时机器人数量自动保存
+  Robot counts save/load automatically with your game
+- 屏幕左侧面板可切换中/英文 / Left-side HUD: switch 中文/EN
+
+【卸载方法 / Uninstall】
+删除REMASTER文件夹里的 / Delete from the REMASTER folder:
+- winhttp.dll
+- doorstop_config.ini
+- .doorstop_version
+- BepInEx文件夹 / BepInEx folder
+- dotnet文件夹 / dotnet folder
+即可完全卸载，不影响游戏存档。
+Fully removes the mod. Game saves are NOT affected.
+
+【已知说明 / Notes】
+- 机器人是mod概念（虚拟劳动力），游戏画面没有实体机器人模型
+  Robots are virtual labor - no visible robot models in game.
+- 存档兼容：不修改游戏存档文件，机器人数量存独立的 .wrmod 文件
+  Game saves are never modified; robot data is in a separate .wrmod file.
+- 没有机器人工厂无法F9制造机器人 / A Robot Factory (Steam Workshop) is required for F9.
+- 如遇问题或想反馈：请附上 / For issues, attach:
+  ...\REMASTER\BepInEx\LogOutput.log 的内容 / contents
+
+建造愉快！/ Happy building! 🤖

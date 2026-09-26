@@ -1,0 +1,48 @@
+============================================================
+  Cliff Empire (REMASTER) - Worker Robot Mod
+  Worker Robot Mod v2.8 - Installation Guide (English)
+============================================================
+
+WHAT IS THIS
+Adds a "Worker Robot" system to the game:
+- Press F9 to build robots (800 credits each; limit = factories x50, capped at population)
+- Press F10 to remove robots
+- Each robot does the work of 2 workers
+- Robots fill labor deficits -> full production
+- Per-scene tracking, orbital station excluded
+- Robot counts auto-save with your game
+- Bilingual HUD (Chinese/EN)
+
+INSTALLATION (one time, ~2 min)
+1. Find the game folder:
+   Steam Library -> right-click Cliff Empire -> Manage -> Browse local files
+   -> open the REMASTER folder
+2. Extract ALL files from this zip into the REMASTER folder (overwrite if asked)
+3. Launch the game from Steam
+
+FIRST LAUNCH
+- First launch generates runtime files (~1-3 min). Slower startup is normal - please wait.
+- Later launches are normal speed.
+
+USAGE
+- F9 = build 1 robot (800 credits; requires a Robot Factory; max = population)
+- F10 = remove 1 robot
+- Robot counts save/load automatically with your game
+- Left-side HUD: switch Chinese/EN
+
+UNINSTALL
+Delete from the REMASTER folder:
+- winhttp.dll
+- doorstop_config.ini
+- .doorstop_version
+- BepInEx folder
+- dotnet folder
+Fully removes the mod. Game saves are NOT affected.
+
+NOTES
+- Robots are virtual labor - no visible robot models in game.
+- Game saves are never modified; robot data is kept in a separate .wrmod file.
+- A Robot Factory (Steam Workshop) is required for F9.
+- For issues, attach: ...\REMASTER\BepInEx\LogOutput.log
+
+Happy building! 🤖
