@@ -1,0 +1,15 @@
+# 工坊文案（发布物料，不进仓库）
+steam_workshop_description*.txt
+
+# 编译产物与源码备份（仓库只存源文件）
+WorkerRobotMod_REMASTER/bin/
+WorkerRobotMod_REMASTER/obj/
+WorkerRobotMod_REMASTER/buildout.txt
+WorkerRobotMod_REMASTER/*.bak*
+
+# 发布物料（大文件走 GitHub Releases / Steam 工坊）
+release_v2.8.0/
+
+# 开发临时
+.hermes/
+TestTools/
