@@ -82,3 +82,10 @@ Robots not working? Attach your log: `...\REMASTER\BepInEx\LogOutput.log`
   This mod only affects labor calculation — game saves are never modified.
 - 由 [YanQing999](https://github.com/YanQing999) 制作，感谢游玩！🎮
   Made by [YanQing999](https://github.com/YanQing999). Enjoy! 🎮
+
+---
+
+## 📄 License
+
+[MIT](LICENSE) — 随便用、随便改，保留版权声明即可。
+[MIT](LICENSE) — free to use, modify, and distribute; just keep the copyright notice.
