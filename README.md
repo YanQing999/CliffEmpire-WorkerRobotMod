@@ -46,6 +46,20 @@ Then build a **Robot Factory** (Steam Workshop) and press `F9`. 🤖
 
 ---
 
+## 🛠️ 源码 / Build from Source
+
+BepInEx 6 (IL2CPP) 插件源码在本仓库 `WorkerRobotMod_REMASTER/` 目录：
+- `Plugin.cs` — 全部插件源码 / all plugin source
+- `WorkerRobotMod_REMASTER.csproj` — 编译配置（HintPath 指向游戏 BepInEx 目录，按需改为你自己的路径）
+
+**编译 / Build:**
+1. 装好 .NET 6 SDK，且游戏已安装 BepInEx（BE.788+）
+2. 改 csproj 里的 `HintPath` 指向你本机的游戏目录
+3. `dotnet build -c Release` → 产物：`bin/Release/net6.0/WorkerRobotMod_REMASTER.dll`
+4. 放入 `REMASTER/BepInEx/plugins/` 即生效
+
+---
+
 ## 🗑️ 卸载 / Uninstall
 
 删除 `REMASTER` 文件夹中的：`winhttp.dll`、`doorstop_config.ini`、`.doorstop_version`、`BepInEx/`、`dotnet/`。游戏存档完全不受影响。
@@ -62,8 +76,8 @@ Robots not working? Attach your log: `...\REMASTER\BepInEx\LogOutput.log`
 
 ## ⚠️ 说明 / Notes
 
-- 完整机器人系统需要创意工坊建筑 **「Robot Factory - Automated Production」**（该建筑单独使用也可作为全自动工厂，无需本 Mod）
-  The full robot system requires the Steam Workshop building **"Robot Factory - Automated Production"** (the building also works standalone as an auto-factory without this mod).
+- 完整机器人系统需要创意工坊建筑 **「机器人工厂 - 提升劳动力」**（该建筑单独使用也可提供 40 居住空间与电池产出，无需本 Mod）
+  The full robot system requires the Steam Workshop building **"Robot Factory - Labor Booster"** (the building also works standalone, providing 40 housing and battery production, without this mod).
 - 本 Mod 只影响劳动力计算 — 绝不修改游戏存档
   This mod only affects labor calculation — game saves are never modified.
 - 由 [YanQing999](https://github.com/YanQing999) 制作，感谢游玩！🎮
